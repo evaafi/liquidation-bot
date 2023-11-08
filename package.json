@@ -1,0 +1,30 @@
+{
+  "name": "evaa-liquidator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@iota/sdk": "^1.1.0",
+    "@ton/core": "^0.52.2",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "github:aSpite/ton",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.19.2",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}
