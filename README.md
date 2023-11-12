@@ -15,7 +15,12 @@
 8. [Task Brief](#task-brief)
 9. [Understanding the EVAA Protocol GET Methods](#understanding-the-evaa-protocol-get-methods)
 10. [Understanding the EVAA Protocol Liquidation TX](#understanding-the-evaa-protocol-liquidation-tx)
-11. [Leaderboard and Participation](#leaderboard-and-participation)
+11. [Network Fee Calculation for Lending Master Contract Operations](#network-fee-calculation-for-lending-master-contract-operations)
+12. [Leaderboard & Participation](#leaderboard-and-participation)
+13. [Partners & Sponsors](#partners-and-sponsors)
+
+  
+
 
 ---
 
@@ -318,6 +323,24 @@ This code provides a clear explanation of the liquidation process, with detailed
 
 ---
 
+### Network Fee Calculation for Lending Master Contract Operations
+
+In order to determine the amount of TONs needed for network fees (with some excess, where the unused portion is refunded), you should call the corresponding get-method on the Lending Master contract:
+
+- `int supply_min_attachment(int fwd_fee) method_id`
+- `int withdraw_min_attachment(int fwd_fee, cell withdraw_user_message) method_id`
+- `int liquidate_min_attachment(int fwd_fee) method_id`
+
+All these methods accept `"fwd_fee"` as the first parameter. This should be taken from one of the recent Supply/Withdraw/Liquidate requests (corresponding to the method being called) from TON/Jetton wallet to the Lending Master. Note that `"request"` refers to the first message that enters the lending protocol and initiates the corresponding operation. Keep in mind that `"fwd_fee"` might vary when sending TONs and Jettons.
+
+The `withdraw_min_attachment` get-method also requires `"withdraw_user_message"` as the second parameter. To determine if the attached TONs are sufficient for proceeding with a Withdraw request, the Master contract uses a real assembled message about to be sent to the Lending-User contract. For convenience, you can obtain a sample `"withdraw_user_message"` to be used for determining the amount to attach by calling:
+- `cell dummy_withdraw_user_message() method_id`
+on the Lending Master contract.
+
+Remember, you can always attach more than required; any excess attachment will be refunded.
+
+---
+
 ### **Leaderboard and Participation**
 
 - A public leaderboard will cultivate competitiveness among participants.
@@ -341,4 +364,5 @@ Below are the links to our partners' websites where you can learn more about the
 - [Tonstarter](https://tonstarter.com/)
 
 We extend our heartfelt thanks to our partners for their support and dedication. Together, we are building a more robust and more interconnected blockchain ecosystem.
+
 
