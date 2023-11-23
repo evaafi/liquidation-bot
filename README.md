@@ -44,18 +44,18 @@ The Evaa Hackathon highlights the ingenuity of liquidation bots tailored for the
 ### **Competition Timeline**
 
 #### Development Phase
-- **Start of Development**: November 12th
-- **End of Development**: November 24th
+- **Start of Development**: November 27th
+- **End of Development**: December 14th
 
 #### Liquidation Bot Contest
-- **Start of Contest**: November 25th
-- **End of Contest**: November 30th
+- **Start of Contest**: December 15th
+- **End of Contest**: December 21th
 
 #### Judging Period
-- **Judging**: December 1st - December 5th
+- **Judging**: December 22nd - December 29th
 
 #### Announcement of Winners
-- **Winner Announcement**: December 6th
+- **Winner Announcement**: December 30th
 
 ---
 
