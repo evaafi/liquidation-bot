@@ -5,15 +5,32 @@ import axios from "axios";
 import { Client } from "@iota/sdk";
 import { handleTransactions } from "./services/indexer/indexer";
 import { validateBalances } from "./services/validator/validator";
-import { configDotenv } from "dotenv";
+import { config } from "dotenv";
 import { handleLiquidates } from "./services/liquidator";
 import { mnemonicToWalletKey } from "@ton/crypto";
 import { Bot } from "grammy";
 import * as https from "https";
 import { sleep } from "./helpers";
+config();
+
+function checkEnvVariables() {
+    const requiredEnvVars = [
+        'TONAPI_KEY',
+        'RPC_API_KEY',
+        'TONCENTER_API_KEY',
+        'WALLET_PRIVATE_KEY',
+        'TELEGRAM_BOT_TOKEN',
+        'NODE_TLS_REJECT_UNAUTHORIZED'
+    ];
+
+    const missingEnvVars = requiredEnvVars.filter(envVar => !process.env[envVar]);
+
+    if (missingEnvVars.length > 0) {
+        throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
+    }
+}
 
 async function main(bot: Bot) {
-    configDotenv();
     const db = new MyDatabase();
     await db.init();
 
@@ -42,7 +59,7 @@ async function main(bot: Bot) {
     const iotaClient = new Client({
         nodes: [iotaEndpoint],
     });
-    const keys = await mnemonicToWalletKey(process.env.WALLET_PRIVATE_KEY.split(' '));
+    const keys = await mnemonicToWalletKey(process.env.TON_WALLET_MNEMONIC.split(' '));
     const wallet = WalletContractV4.create({
         workchain: 0,
         publicKey: keys.publicKey
@@ -81,7 +98,7 @@ async function main(bot: Bot) {
 }
 
 (() => {
-    configDotenv();
+    checkEnvVariables();
     const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
     main(bot)
         .catch(e => {
