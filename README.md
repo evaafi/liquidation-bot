@@ -30,11 +30,11 @@
 
 **Evaa Protocol**:
 
-> Overview: Evaa Protocol is a key player in the decentralized finance (DeFi) sector.
+> Overview: Evaa Protocol is a key player in TON DeFi.
 > 
 > Functionality: Specializes in the lending and borrowing of digital assets.
 > 
-> Collateralization: Emphasizes strict collateral requirements to ensure the integrity and trustworthiness of financial transactions.
+> Collateralization: Emphasizes strict collateral requirements to ensure the integrity and trustworthiness of blockchain transactions.
 >
 > Market Stability: Implements proactive measures for stability and security, particularly effective during market downturns.
 
@@ -156,7 +156,7 @@ Access the hackathon version of the application to interact with the smart contr
 #### Contract Addresses
 - **Hackathon Evaa Master SC:** `EQBgEeF46Blyistz-KyGh80NwZuQAdlrEoKSECUGJ5VSHt7H`
 - **IOTA NFT ID for hackathon stand:** `0x85f0045998038bebd076987deb4d4c680a323cb04380491eaa7857b6469ba923`
-- **Testnet Evaa SC with postitions:** `EQAzAwpmJcfIYYHWtsgOgZS7dEX2wSKc1AZvX8LOqGIqlwZD` (check it)
+- **Testnet Evaa SC with positions:** `EQAzAwpmJcfIYYHWtsgOgZS7dEX2wSKc1AZvX8LOqGIqlwZD` (check it)
 - **IOTA NFT ID for Testnet SC:** `0x98f8eb12127ee205a7b84e6910021e1e65ec5c8d92f89acdffea7be20104e899`
 - **DeDust Factory:** `EQBfBWT7X2BHg9tXAxzhz2aKiNTU1tpt5NsiK0uSDW_YAJ67`
 - **DeDust Native Vault** (where all the TON tokens are): `EQDa4VOnTYlLvDJ0gZjNYm5PXfSmmtL6Vs6A_CZEtXCNICq_`
