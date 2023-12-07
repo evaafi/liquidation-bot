@@ -2,6 +2,7 @@
 
 ## Hackathon Theme and Objectives
 > **Focus:** Focused on developing liquidation bots for the Evaa Protocol, to earn profits by efficiently liquidating undercollateralized positions to maintain market stability.
+> 
 > **Relevance:** Highly relevant to current trends in TON DeFi, with a focus on maintaining market stability and security.
 
 ![280543248-c75cf793-161c-4278-9260-2bf22ecf6bd8](https://github.com/evaafi/liquidation-bot/assets/93347064/41404963-847a-4ce5-92fa-80a1503d450a)
