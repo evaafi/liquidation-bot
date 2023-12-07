@@ -5,7 +5,8 @@
 > 
 > **Relevance:** Highly relevant to current trends in TON DeFi, with a focus on maintaining market stability and security.
 
-![280543248-c75cf793-161c-4278-9260-2bf22ecf6bd8](https://github.com/evaafi/liquidation-bot/assets/93347064/41404963-847a-4ce5-92fa-80a1503d450a)
+![telegram-cloud-photo-size-5-6266854178676652995-y](https://github.com/evaafi/liquidation-bot/assets/93347064/5b9ef564-ce04-4e02-9947-cb46739d5487)
+
 ---
 
 ### **Table of Contents**
