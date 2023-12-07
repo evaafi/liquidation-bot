@@ -1,9 +1,8 @@
 # Evaa Protocol Hackathon 2023
 
 ## Hackathon Theme and Objectives
-> **Focus:** Focused on developing liquidation bots for the Evaa Protocol, to earn profits by efficiently liquidating undercollateralized positions to maintain market stability.
-> 
-> **Relevance:** Highly relevant to current trends in TON DeFi, with a focus on maintaining market stability and security.
+> - Focus: Focused on developing liquidation bots for the Evaa Protocol, to earn profits by efficiently liquidating undercollateralized positions to maintain market stability.
+> - Relevance: Highly relevant to current trends in TON DeFi, with a focus on maintaining market stability and security.
 
 ![telegram-cloud-photo-size-5-6266854178676652995-y](https://github.com/evaafi/liquidation-bot/assets/93347064/5b9ef564-ce04-4e02-9947-cb46739d5487)
 
@@ -85,7 +84,7 @@ Participate in the **Evaa Hackathon** and:
 - Connect with other builders in the **Evaa Buidl**.
 
 Join the movement at the Evaa Protocol Hub: [Evaa Telegram](https://t.me/EvaaProtocolHub).
-Join devs at the Evaa Buidl: [Evaa BUIDL](https://t.me/evaabudidl).
+Join devs at the Evaa Buidl: [Evaa BUIDL](https://t.me/evaabuidl).
 
 ---
 
