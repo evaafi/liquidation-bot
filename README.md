@@ -1,7 +1,7 @@
 # Evaa Protocol Hackathon 2023
 
 ## Hackathon Theme and Objectives
-> **Focus:** Centered around the development of liquidation bots for the Evaa Protocol, a DeFi lending and borrowing platform.
+> **Focus:** Focused on developing liquidation bots for the Evaa Protocol, to earn profits by efficiently liquidating undercollateralized positions to maintain market stability.
 > **Relevance:** Highly relevant to current trends in TON DeFi, with a focus on maintaining market stability and security.
 
 ![280543248-c75cf793-161c-4278-9260-2bf22ecf6bd8](https://github.com/evaafi/liquidation-bot/assets/93347064/41404963-847a-4ce5-92fa-80a1503d450a)
@@ -28,16 +28,24 @@
 ### **Introduction to Evaa & Liquidation Bots**
 
 **Evaa Protocol**:
+
 > Overview: Evaa Protocol is a key player in the decentralized finance (DeFi) sector.
+> 
 > Functionality: Specializes in the lending and borrowing of digital assets.
+> 
 > Collateralization: Emphasizes strict collateral requirements to ensure the integrity and trustworthiness of financial transactions.
-Market Stability: Implements proactive measures for stability and security, particularly effective during market downturns.
+>
+> Market Stability: Implements proactive measures for stability and security, particularly effective during market downturns.
 
 **Liquidation Bots**:
+
 > Purpose: Serve as automated guardians in the volatile DeFi market.
+> 
 > Operation: Constantly monitor market conditions and collateral levels in lending protocols.
+> 
 > Liquidation Trigger: Automatically initiate the liquidation process when a borrower's collateral falls below a certain threshold.
-Role in DeFi: Essential for maintaining balance and reliability in platforms like Evaa, helping to manage risks associated with lending and borrowing.
+>
+> Role in DeFi: Essential for maintaining balance and reliability in platforms like Evaa, helping to manage risks associated with lending and borrowing.
 
 ---
 
