@@ -149,6 +149,10 @@ Participants must achieve the most substantial accumulated profit through repeat
 
 ### **Developer Resources**
 
+#### An Open Source Basic Liquidation Bot That You Can Get Started With
+Access the open source hackathon version of the basic liquidation bot to interact with EVAA's smart contracts:
+- [Open Source Basic Liquidation Bot](https://github.com/evaafi/liquidation-bot)
+
 #### Hackathon Version Front-End
 Access the hackathon version of the application to interact with the smart contracts:
 - [Hackathon App Front-End](https://front-end-hazel-iota.vercel.app/)
