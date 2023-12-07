@@ -1,4 +1,9 @@
 # Evaa Protocol Hackathon 2023
+
+## Hackathon Theme and Objectives
+> **Focus:** Centered around the development of liquidation bots for the Evaa Protocol, a DeFi lending and borrowing platform.
+> **Relevance:** Highly relevant to current trends in TON DeFi, with a focus on maintaining market stability and security.
+
 ![280543248-c75cf793-161c-4278-9260-2bf22ecf6bd8](https://github.com/evaafi/liquidation-bot/assets/93347064/41404963-847a-4ce5-92fa-80a1503d450a)
 ---
 
@@ -18,18 +23,21 @@
 12. [Leaderboard & Participation](#leaderboard-and-participation)
 13. [Partners & Sponsors](#partners-and-sponsors)
 
-  
-
-
 ---
 
 ### **Introduction to Evaa & Liquidation Bots**
 
 **Evaa Protocol**:
-> At the heart of decentralized finance (DeFi), Evaa stands as a pioneering protocol promoting the secure lending and borrowing of digital assets. It's the robust foundation that fortifies the trust and integrity of financial transactions in the DeFi space through stringent collateralization measures. When the market takes a dip, Evaa's proactive mechanisms come into play, ensuring stability and security.
+> Overview: Evaa Protocol is a key player in the decentralized finance (DeFi) sector.
+> Functionality: Specializes in the lending and borrowing of digital assets.
+> Collateralization: Emphasizes strict collateral requirements to ensure the integrity and trustworthiness of financial transactions.
+Market Stability: Implements proactive measures for stability and security, particularly effective during market downturns.
 
 **Liquidation Bots**:
-> In the unpredictable landscape of DeFi, liquidation bots are the sentinels that guard against market volatility. These automated systems tirelessly surveil the market, pinpointing and acting upon vulnerable positions. By swiftly initiating liquidations, they play a crucial role in maintaining the equilibrium and reliability of platforms like Evaa.
+> Purpose: Serve as automated guardians in the volatile DeFi market.
+> Operation: Constantly monitor market conditions and collateral levels in lending protocols.
+> Liquidation Trigger: Automatically initiate the liquidation process when a borrower's collateral falls below a certain threshold.
+Role in DeFi: Essential for maintaining balance and reliability in platforms like Evaa, helping to manage risks associated with lending and borrowing.
 
 ---
 
@@ -42,11 +50,11 @@ The Evaa Hackathon highlights the ingenuity of liquidation bots tailored for the
 
 ### **Competition Timeline**
 
-#### Development Phase
+#### Bot Development Phase
 - **Start of Development**: November 27th
 - **End of Development**: December 14th
 
-#### Liquidation Bot Contest
+#### Liquidation Bots Competition
 - **Start of Contest**: December 15th
 - **End of Contest**: December 21th
 
@@ -61,23 +69,27 @@ The Evaa Hackathon highlights the ingenuity of liquidation bots tailored for the
 ### **Participation Details**
 
 🌍 **A Global Invitation**:
-We cordially invite developers, DeFi enthusiasts, and innovative minds worldwide to:
+Developers and DeFi enthusiasts worldwide are invited to:
 
-- Engage with the global open-source community.
-- Flaunt your DeFi expertise and craftsmanship through the **Evaa Hackathon**.
+- Create innovative Liquidation Bots for the Evaa ecosystem.
+- Build unique utilities on top of TON (The Open Network) protocols.
 
-🔗 **Deep Dive into DeFi**:
-Are you eager to unravel the intricacies of DeFi and the innovative Evaa protocol? Join the vibrant discussions, share your creativity, and gain insights on the **Protocol Hub**. Connect directly with the Evaa core team and join the evolution.
+🔗 **Engage and Innovate**:
+Participate in the **Evaa Hackathon** and:
 
-🚀 **Join the Movement**:
-Seize this golden opportunity to influence the future of finance. Immerse yourself, contribute, and establish meaningful connections. Be part of the next big leap in DeFi with our Evaa Protocol Hub: [Evaa Telegram](https://t.me/EvaaProtocolHub)
+- Dive into the world of TON DeFi, exploring and creating solutions.
+- Connect with peers and the Evaa team in the **Protocol Hub**.
+- Connect with other builders in the **Evaa Buidl**.
+
+Join the movement at the Evaa Protocol Hub: [Evaa Telegram](https://t.me/EvaaProtocolHub).
+Join devs at the Evaa Buidl: [Evaa BUIDL](https://t.me/evaabudidl).
 
 ---
 
 ## Hackathon Prizes
 
 ### Prizes Breakdown
-The hackathon is not only a platform to showcase your skills and creativity but also a chance to win substantial rewards. Here's a detailed look at the prizes being offered:
+Here's a detailed look at the prizes being offered:
 
 #### EVAA Liquidation Bot Competition
 - **Prize Pool:** $3,000
@@ -104,9 +116,12 @@ The hackathon is not only a platform to showcase your skills and creativity but 
 
 ### Criteria Details
 
+Participants must achieve the most substantial accumulated profit through repeated liquidations on the Evaa Protocol amidst market volatility using bots prepared during the development phase. It's essential to emphasize that liquidations should occur multiple times, not just once. 
+
 #### Bot's Profit in the Test Phase
 - The primary objective during the test phase is to generate profit through the strategic operation of your bot.
 - Performance will be measured based on the bot's effectiveness and the profit it generates on the Evaa mainnet playground.
+- In the Evaa Protocol Hackathon context, profit refers to the digital asset gains earned by liquidation bots when they successfully liquidate undercollateralized loans in DeFi platforms. Efficient bots earn profits by executing these liquidations.
 
 #### Open-Sourcing Bonus
 - We understand the temptation to keep a high-performing bot's code proprietary, especially if it proves profitable. However, we encourage open sourcing.
@@ -132,7 +147,7 @@ Access the hackathon version of the application to interact with the smart contr
 #### Contract Addresses
 - **Hackathon Evaa Master SC:** `EQBgEeF46Blyistz-KyGh80NwZuQAdlrEoKSECUGJ5VSHt7H`
 - **IOTA NFT ID for hackathon stand:** `0x85f0045998038bebd076987deb4d4c680a323cb04380491eaa7857b6469ba923`
-- **Testnet Evaa SC:** `EQAzAwpmJcfIYYHWtsgOgZS7dEX2wSKc1AZvX8LOqGIqlwZD`
+- **Testnet Evaa SC with postitions:** `EQAzAwpmJcfIYYHWtsgOgZS7dEX2wSKc1AZvX8LOqGIqlwZD` (check it)
 - **IOTA NFT ID for Testnet SC:** `0x98f8eb12127ee205a7b84e6910021e1e65ec5c8d92f89acdffea7be20104e899`
 - **DeDust Factory:** `EQBfBWT7X2BHg9tXAxzhz2aKiNTU1tpt5NsiK0uSDW_YAJ67`
 - **DeDust Native Vault** (where all the TON tokens are): `EQDa4VOnTYlLvDJ0gZjNYm5PXfSmmtL6Vs6A_CZEtXCNICq_`
@@ -168,13 +183,13 @@ Access the hackathon version of the application to interact with the smart contr
 
 The Evaa Protocol invites you to engineer a liquidation bot that:
 
-1. Constantly monitors user positions in real time.
+1. Constantly monitors user positions in real-time on Evaa Protocol.
 2. Triggers liquidation for positions exceeding the 107% threshold.
 3. Seamlessly executes asset swaps on designated DEXs.
 
 DEX Incentives:
-- DEX DuDust: Bounty for platform usage.
-- DEX StonFi: Bounty for platform usage.
+- DEX DeDust: Bounty for using DeDust as a liquidation platform.
+- DEX StonFi: Bounty for using StonFi as a liquidation platform.
 
 API Incentives:
 - TON ACCESS: Bounty for platform usage.
