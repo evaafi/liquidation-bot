@@ -31,29 +31,23 @@
 
 **Evaa Protocol**:
 
-> Overview: Evaa Protocol is a key player in TON DeFi.
-> 
-> Functionality: Specializes in the lending and borrowing of digital assets.
-> 
-> Collateralization: Emphasizes strict collateral requirements to ensure the integrity and trustworthiness of blockchain transactions.
->
-> Market Stability: Implements proactive measures for stability and security, particularly effective during market downturns.
+> - Overview: Evaa Protocol is a key player in TON DeFi.
+> - Functionality: Specializes in the lending and borrowing of digital assets.
+> - Collateralization: Emphasizes strict collateral requirements to ensure the integrity and trustworthiness of blockchain transactions.
+> - Market Stability: Implements proactive measures for stability and security, particularly effective during market downturns.
 
 **Liquidation Bots**:
 
-> Purpose: Serve as automated guardians in the volatile DeFi market.
-> 
-> Operation: Constantly monitor market conditions and collateral levels in lending protocols.
-> 
-> Liquidation Trigger: Automatically initiate the liquidation process when a borrower's collateral falls below a certain threshold.
->
-> Role in DeFi: Essential for maintaining balance and reliability in platforms like Evaa, helping to manage risks associated with lending and borrowing.
+> - Purpose: Serve as automated guardians in the volatile DeFi market.
+> - Operation: Constantly monitor market conditions and collateral levels in lending protocols.
+> - Liquidation Trigger: Automatically initiate the liquidation process when a borrower's collateral falls below a certain threshold.
+> - Role in DeFi: Essential for maintaining balance and reliability in platforms like Evaa, helping to manage risks associated with lending and borrowing.
 
 ---
 
 ### **Evaa Hackathon Overview**
 
-The Evaa Hackathon highlights the ingenuity of liquidation bots tailored for the Evaa ecosystem. It's a battlefield for developers to showcase their prowess, drive innovation in the dynamic world of DeFi, and grab their share of glory and rewards.
+The Evaa Hackathon is all about creating smart liquidation bots for the Evaa system. It's a chance for developers to show their skills, bring new ideas to the fast-moving DeFi world, and earn rewards and recognition.
 
 ---
 
