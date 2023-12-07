@@ -127,10 +127,10 @@ Here's a detailed look at the prizes being offered:
 
 Participants must achieve the most substantial accumulated profit through repeated liquidations on the Evaa Protocol amidst market volatility using bots prepared during the development phase. It's essential to emphasize that liquidations should occur multiple times, not just once. 
 
-#### Bot's Profit in the Test Phase
-- The primary objective during the test phase is to generate profit through the strategic operation of your bot.
-- Performance will be measured based on the bot's effectiveness and the profit it generates on the Evaa mainnet playground.
-- In the Evaa Protocol Hackathon context, profit refers to the digital asset gains earned by liquidation bots when they successfully liquidate undercollateralized loans in DeFi platforms. Efficient bots earn profits by executing these liquidations.
+#### To liquidate, participants must either:
+- Liquidate a debt in Token A backed by Token B, then convert the received Token B back to Token A. Profit is calculated as the increase in Token A's balance, measured in USD at the transaction's current exchange rate.
+- Convert Token B to Token A, liquidate a debt in Token A backed by Token B. Profit is the surge in Token B's balance, converted to USD at the prevailing exchange rate during the transaction.
+- Convert Token C to Token A, liquidate a debt in Token A secured by Token B, and then swap the acquired Token B for Token C. Profit here is the rise in Token C's balance, denoted in USD based on the transaction's rate.
 
 #### Open-Sourcing Bonus
 - We understand the temptation to keep a high-performing bot's code proprietary, especially if it proves profitable. However, we encourage open sourcing.
