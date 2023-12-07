@@ -54,7 +54,6 @@
 ### **Evaa Hackathon Overview**
 
 The Evaa Hackathon highlights the ingenuity of liquidation bots tailored for the Evaa ecosystem. It's a battlefield for developers to showcase their prowess, drive innovation in the dynamic world of DeFi, and grab their share of glory and rewards.
-> Link: [Evaa Developer's Guide](https://evaa.gitbook.io/evaadev/)
 
 ---
 
