@@ -86,6 +86,8 @@ Participate in the **Evaa Hackathon** and:
 Join the movement at the Evaa Protocol Hub: [Evaa Telegram](https://t.me/EvaaProtocolHub).
 Join devs at the Evaa Buidl: [Evaa BUIDL](https://t.me/evaabuidl).
 
+
+
 ---
 
 ## Hackathon Prizes
@@ -138,12 +140,17 @@ Participants must achieve the most substantial accumulated profit through repeat
 #### Judges
 - A distinguished panel of DeFi experts and core Evaa Protocol team members
 
+### **Additional Condition for the Hackathon**
+
+- **Unique `query_id` for Each Operation Sequence**: Participants are required to use a unique `query_id` for each sequence of operations (liquidation + swap, swap + liquidation, swap + liquidation + swap). This will facilitate the tracking and analysis of operations, simplifying the validation process and efficiency assessment of the bots.
+
+
 ---
 
 ### **Developer Resources**
 
 #### An Open Source Basic Liquidation Bot That You Can Get Started With
-Access the open source hackathon version of the basic liquidation bot to interact with EVAA's smart contracts:
+Access the open-source hackathon version of the basic liquidation bot to interact with EVAA's smart contracts:
 - [Open Source Basic Liquidation Bot](https://github.com/evaafi/liquidation-bot)
 
 #### Hackathon Version Front-End
