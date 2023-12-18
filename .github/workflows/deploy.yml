@@ -1,0 +1,8 @@
+name: Evaa deploy
+on: push
+
+jobs:
+  CI_CD:
+    uses: evaafi/github-actions-workflows/.github/workflows/base.yml@main
+    with:
+      APP_YAML_KEY: liquidation-bot
