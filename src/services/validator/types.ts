@@ -20,7 +20,7 @@ export type AssetConfig = {
     decimals: bigint;
     collateralFactor: bigint;
     liquidationThreshold: bigint;
-    liquidationPenalty: bigint;
+    liquidationBonus: bigint;
     baseBorrowRate: bigint;
     borrowRateSlopeLow: bigint;
     borrowRateSlopeHigh: bigint;
