@@ -9,7 +9,7 @@ import { isAxiosError } from "axios";
 
 export async function validateBalances(db: MyDatabase, tonClient: TonClient, iotaClient: Client) {
     try {
-        // console.log(`Start validating balances at ${new Date().toLocaleString()}`)
+       //  console.log(`Start validating balances at ${new Date().toLocaleString()}`)
         const users = await db.getUsers();
         const masterAddress = evaaMaster;
 
@@ -84,7 +84,7 @@ export async function validateBalances(db: MyDatabase, tonClient: TonClient, iot
             if (totalLimit < totalDebt) {
                 const gLoanAssetPrice: bigint = pricesDict.get(gLoanAsset);
                 const values = [];
-                const liquidationBonus = assetConfigDict.get(gLoanAsset).liquidationThreshold;
+                const liquidationBonus = assetConfigDict.get(gLoanAsset).liquidationBonus;
                 if (gLoanAsset === AssetID.ton) {
                     values.push(bigIntMax(gCollateralValue / 2n, bigIntMin(gCollateralValue, 100_000_000_000))
                         * decimals.ton * 10000n / liquidationBonus / gLoanAssetPrice);
@@ -102,20 +102,19 @@ export async function validateBalances(db: MyDatabase, tonClient: TonClient, iot
                     * collateralDecimal / gCollateralAssetPrice / loanDecimal - 10n;
 		minCollateralAmount = minCollateralAmount * 97n / 100n;
                 if(minCollateralAmount / collateralDecimal >= 1n) {
-                    // TODO: Should be changed in future for avoiding collisions
                     const queryID = BigInt(Date.now());
                     await db.addTask(user.wallet_address, user.contract_address, Date.now(), gLoanAsset, gCollateralAsset,
                         liquidationAmount, minCollateralAmount, pricesCellBase64, prices.signature, queryID);
                     console.log(`Task for ${user.wallet_address} added`);
                 } else {
-                    console.log(`Not enough collateral for ${user.wallet_address}`);
+                    // console.log(`Not enough collateral for ${user.wallet_address}`);
                 }
             } else {
 
             }
         }
 
-        // console.log(`Finish validating balances at ${new Date().toLocaleString()}`)
+     //    console.log(`Finish validating balances at ${new Date().toLocaleString()}`)
     } catch(e) {
         if(!isAxiosError(e)) {
             console.log(e)
@@ -123,15 +122,13 @@ export async function validateBalances(db: MyDatabase, tonClient: TonClient, iot
         }
 
         if (e.response) {
-            console.log(`Error: ${e.response.status} - ${e.response.statusText}
-            
-${e.response.data}`);
+            console.log(`Error: ${e.response.status} - ${e.response.statusText}`);
         } else if (e.request) {
             console.log(`Error: No response from server.
 
 ${e.request}`);
         } else {
-            console.log(`Error: ${e.message}`);
+            console.log(`Error: unknown`);
         }
         console.log(e)
         console.log(`Error while validating balances...`)
