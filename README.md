@@ -121,10 +121,15 @@ Here's a detailed look at the prizes being offered:
 
 Participants must achieve the most substantial accumulated profit through repeated liquidations on the Evaa Protocol amidst market volatility using bots prepared during the development phase. It's essential to emphasize that liquidations should occur multiple times, not just once. 
 
+
 #### To liquidate, participants must either:
 - Liquidate a debt in Token A backed by Token B, then convert the received Token B back to Token A. Profit is calculated as the increase in Token A's balance, measured in USD at the transaction's current exchange rate.
 - Convert Token B to Token A, liquidate a debt in Token A backed by Token B. Profit is the surge in Token B's balance, converted to USD at the prevailing exchange rate during the transaction.
 - Convert Token C to Token A, liquidate a debt in Token A secured by Token B, and then swap the acquired Token B for Token C. Profit here is the rise in Token C's balance, denoted in USD based on the transaction's rate.
+
+#### Additional Requirement: 
+- Use a unique query_id for each operation sequence for easier tracking and analysis.
+
 
 #### Open-Sourcing Bonus
 - We understand the temptation to keep a high-performing bot's code proprietary, especially if it proves profitable. However, we encourage open sourcing.
