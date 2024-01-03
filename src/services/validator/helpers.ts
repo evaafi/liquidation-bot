@@ -32,7 +32,7 @@ export function createAssetConfig(): DictionaryValue<AssetConfig> {
             const refBuild = beginCell();
             refBuild.storeUint(src.collateralFactor, 16);
             refBuild.storeUint(src.liquidationThreshold, 16);
-            refBuild.storeUint(src.liquidationPenalty, 16);
+            refBuild.storeUint(src.liquidationBonus, 16);
             refBuild.storeUint(src.baseBorrowRate, 64);
             refBuild.storeUint(src.borrowRateSlopeLow, 64);
             refBuild.storeUint(src.borrowRateSlopeHigh, 64);
@@ -47,7 +47,7 @@ export function createAssetConfig(): DictionaryValue<AssetConfig> {
             const ref = src.loadRef().beginParse();
             const collateralFactor = BigInt(ref.loadUint(16));
             const liquidationThreshold = BigInt(ref.loadUint(16));
-            const liquidationPenalty = BigInt(ref.loadUint(16));
+            const liquidationBonus = BigInt(ref.loadUint(16));
             const baseBorrowRate = BigInt(ref.loadUint(64));
             const borrowRateSlopeLow = BigInt(ref.loadUint(64));
             const borrowRateSlopeHigh = BigInt(ref.loadUint(64));
@@ -57,7 +57,7 @@ export function createAssetConfig(): DictionaryValue<AssetConfig> {
 
             return {
                 oracle, decimals, collateralFactor, liquidationThreshold,
-                liquidationPenalty, baseBorrowRate, borrowRateSlopeLow,
+                liquidationBonus, baseBorrowRate, borrowRateSlopeLow,
                 borrowRateSlopeHigh, supplyRateSlopeLow, supplyRateSlopeHigh, targeUtilization
             };
         }
