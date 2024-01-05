@@ -52,18 +52,29 @@ The Evaa Hackathon is all about creating smart liquidation bots for the Evaa sys
 
 ### **Competition Timeline**
 
-#### Bot Development Phase
-- **Start of Development**: November 27th
-- **End of Development**: December 31th
+**Bot Development Phases:
+**
 
-#### Liquidation Bots Competition
-- **Contest**: 1 Week of Jan
+Duration: From November 27, 2023, to January 25, 2024.
 
-#### Judging Period
-- **Judging**: 2 Week of Jan
+**Migration of Bots from Testnet to Mainnet Playground (untill January 25):
+**
+Transitioning liquidation bots from the testnet to the mainnet playground. This phase is crucial for enabling the bots to perform swaps on the TON Mainnet in TON DEXes after liquidations on EVAA Hackathon Mainnet Playground.
 
-#### Announcement of Winners
-- **Winner Announcement**: 2 Week of Jan
+**Bots Competition on Mainnet:
+**
+Starts: January 25, 2024.
+Ends: January 31, 2024.
+Registrantion: https://forms.gle/TMeNn73RM39ERyBH7
+
+**Judging Period:
+**
+Starts: February 1, 2024.
+Ends: February 7, 2024.
+
+**Announcement of Winners:
+**
+February 8, 2024.
 
 ---
 
