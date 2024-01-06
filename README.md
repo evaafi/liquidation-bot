@@ -333,7 +333,7 @@ If the loan asset is TON (TON Crystal), the following steps are performed:
 4. Store the ID of the token to be received. It's a SHA256 HASH derived from the Jetton wallet address of the EVAA master smart contract.
 5. Store the minimal amount of tokens required to satisfy the liquidation.
 6. Set a constant value of `-1` (can always be `-1`).
-7. Reference the `pricessCell`, which contains prices obtainable from the IOTA NFT.
+7. Reference the `pricesCell`, which contains prices obtainable from the IOTA NFT.
 8. Conclude the cell.
 
 Amount to send: `task.liquidationAmount`, minus `0.33` for blockchain fees. The EVAA smart contract will calculate the amount of collateral tokens to send back based on this number.
